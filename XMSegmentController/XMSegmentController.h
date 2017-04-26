@@ -6,6 +6,29 @@
 //  Copyright © 2017年 Justming. All rights reserved.
 //
 //
+//  github地址：https://github.com/Justming/XMSegmentController.git
+//
+
+/*
+ 
+ 使用步骤：
+ 1.创建对象
+ XMSegmentController * segment = [[XMSegmentController alloc] init];
+ 
+ 2.设置属性
+ segment.buttonWidth = SCREEN_WIDTH / 5;
+ segment.buttonColor = [UIColor blueColor];
+ 
+ 3.初始化控制器
+ [segment initSegmentWithTitleArray:titleArray subViewControllers:array];
+ 
+ 4.添加到父控制器
+ [segment addToParentControllerNoNavigationBar:self];
+ 
+ 5.如需响应点击事件，设置代理并实现代理方法
+ segment.delegate = self;
+ 
+ */
 
 #import <UIKit/UIKit.h>
 @class XMSegmentController;
