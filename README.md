@@ -1,6 +1,6 @@
 # XMSegmentController
 
---------
+
 
 ## 使用方法
     使用步骤：
@@ -21,7 +21,6 @@
     segment.delegate = self;
     
 
----------
     
 # 效果图 
 
