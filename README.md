@@ -15,7 +15,7 @@
     [segment initSegmentWithTitleArray:titleArray subViewControllers:array];
  
     4.添加到父控制器
-    (1)父控制器没有导航栏
+    (1)父控制器没有导航栏
     [segment addToParentControllerNoNavigationBar:self];
     (2)父控制器有导航栏
     [segment addToParentControllerWithNavigationBar:self];
