@@ -27,5 +27,5 @@
     
 # 效果图 
 
-[没有导航栏](https://github.com/Justming/XMSegmentController/1.gif)
+![img](https://github.com/Justming/XMSegmentController/1.gif)
 
